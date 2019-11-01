@@ -1,0 +1,97 @@
+body {
+	font-family: Lato, sans-serif;
+}
+h1 {
+    width: 100%;				
+    font-weight: lighter;			
+    text-align: center;			
+    font-size: 40px;
+    color: blue;			
+}
+h2 {
+    display: inline-block;			
+    text-align: center;
+    background-color: lightblue;		
+    padding: 3px;				
+    margin: 5px;				
+    font-size: 28px;
+    color: blue;
+}
+h3 {
+    display: inline-block;
+    font-weight: bold;
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    color: blue;
+}
+.container {				
+    min-width: 775px;	
+    display: flex;
+    flex-wrap: wrap;	
+    justify-content: center;			
+}
+.main {
+    background-size: cover;		
+    min-width: 964px;			
+    min-height: 422px;			
+    display: flex;
+    justify-content: center;
+    align-items: center;	
+    text-align: center;		
+    background-image:     url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Schlosspark_Wilhelmsh%C3%B6he_001.jpg/1200px-Schlosspark_Wilhelmsh%C3%B6he_001.jpg"); 
+}
+.more {
+    display: flex;				
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;	
+}
+.more2 {
+    display: flex;				
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;	
+}
+.more div {				
+    background-size: cover;							     
+    min-width: 450px;								
+    min-height: 345px;								
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.more div2 {				
+    background-size: cover;							     
+    min-width: 450px;								
+    min-height: 345px;								
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+#sights{
+     background-image: url("https://www.abellio.de/sites/default/files/styles/ce_image/public/herkules1_1.jpg?itok=hPvIhK-V"); 
+}
+#events{
+     background-image: url("https://www.weihnachtsmaerkte-in-deutschland.de/images/maerchenweihnachtsmarkt-in-kassel-1397509244.jpg"); 
+}
+#video{
+	
+footer {					
+    text-align: center;
+    color: blue;
+    width: 100%;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 50px;
+    bottom: 0;
+    position: fixed;
+    margin-top: 20px;
+}
+
+
+
