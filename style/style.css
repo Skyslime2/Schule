@@ -81,16 +81,23 @@ h3 {
 }
 #video{
 	
-footer {					
-    text-align: center;
-    color: blue;
-    width: 100%;
-    font-weight: lighter;
-    font-size: 20px;
-    padding: 50px;
-    bottom: 0;
-    position: fixed;
-    margin-top: 20px;
+footer{
+	margin-top: 20px;
+	padding: 10px;
+	background-color: black;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	color: white;
+}
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
 }
 
 
